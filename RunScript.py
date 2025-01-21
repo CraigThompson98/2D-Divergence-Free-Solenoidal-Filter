@@ -144,7 +144,3 @@ cbar2.set_label('Divergence')
 plt.tight_layout()
 plt.savefig('DIVFree.png')
 plt.close(fig)
-
-np.savez_compressed('SaveData', UVPredicted = UVPredicted)
-Model.save('Model.h5')
-print("INFO: Prediction and model have been saved!")
